@@ -1,12 +1,12 @@
 #!/usr/bin/python3
 import random
 
-random_number = random.randint(-10, 10)
+number = random.randint(-10, 10)
 
-if random_number > 0:
-    print(f"{random_number:d} is positive")
-elif random_number == 0:
-    print(f"{random_number:d} is zero")
+if number > 0:
+    print(f"{number:f} is positive")
+elif number == 0:
+    print(f"{number:f} is zero")
 else:
-    print(f"{random_number:d} is negative")
+    print(f"{number:f} is negative")
 
