@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# Author - DAALI IMAD
+
 
 
 def common_elements(set_1, set_2):
